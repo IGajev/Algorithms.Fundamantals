@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'edu.princeton.cs:algs4:1.0.4'
+}
