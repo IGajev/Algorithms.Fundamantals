@@ -84,5 +84,23 @@ public class BagTest {
 
     Assert.assertEquals(10, computed);
   }
+
+  @Test
+  public void maxRecursive_LinkedListIsRandomlyPopularizedPartThree_ReturnsTheLargestElement() {
+    Bag bag = new Bag();
+    bag.add(1);
+    bag.add(5);
+    bag.add(7);
+    bag.add(9);
+    bag.add(8);
+    bag.add(2);
+    bag.add(3);
+    bag.add(0);
+    bag.add(10);
+
+    int computed = bag.maxRecursive(bag.getFirst());
+
+    Assert.assertEquals(10, computed);
+  }
 }
 
