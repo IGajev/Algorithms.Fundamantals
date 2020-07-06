@@ -3,4 +3,5 @@ include 'BinarySearch'
 include 'Draw'
 include 'Dijkstra’s Two-Stack Algorithm for Expression Evaluation'
 include 'Stack'
+include 'AnalysisOfAlgorithms'
 
